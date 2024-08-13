@@ -78,3 +78,24 @@ body {
 
   transition: width 0.2s ease-out, padding-top 0.2s ease-out;
 } */
+.appbar{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start;
+  background-color: #f7d736;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+  padding: 0.5rem;
+  margin-top: 0.1rem;
+
+}
+
+.logo{
+  width: 5rem;
+  height: 3rem;
+}
+.subtitle{
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.85rem;
+  padding-left: 1rem;
+}
