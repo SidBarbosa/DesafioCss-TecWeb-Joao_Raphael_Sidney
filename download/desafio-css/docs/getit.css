@@ -99,3 +99,11 @@ body {
   padding-top: 0.85rem;
   padding-left: 1rem;
 }
+.form-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  width: 10rem;
+}
