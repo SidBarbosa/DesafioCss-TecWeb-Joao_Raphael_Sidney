@@ -184,20 +184,30 @@ body {
 .card{
   display: flex;
   flex-direction: column;
-  margin-left: 4rem;
-  margin-bottom: 3rem;
-  border:0.2rem solid black;
-  height: 10rem;
-  width: 11rem;
-  padding: 0.2rem;
-  border-radius: 3px;
+  margin-left: 2rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  height: 8.7rem;
+  width: 12rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.8);
+  padding-bottom: 0.8rem;
   
 }
 
 .card-title{
   font-size: large;
   font-weight: bold;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 0.2rem;
+  padding-top: 0.5rem;
+  font-family: 'Permanent Marker', cursive;
+}
+.card-content{
+  padding-left: 0.4rem;
+  font-family: 'Permanent Marker', cursive;
+  color:#4c4c4c
 }
 
 
