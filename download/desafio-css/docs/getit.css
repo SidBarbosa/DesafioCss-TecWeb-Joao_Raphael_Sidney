@@ -158,20 +158,33 @@ body {
 .card-colour-5{
   color:#fae890;
   
-}.card-colour-6{
-  color:#fae890;
+}.card-rotation-1{
+  motion-rotation: -5grad;
 }
-.card-colour-7{
-  
-}.card-colour-8{
-  
-}.card-colour-9{
-  
-}.card-colour-10{
-  
-}.card-colour-11{
-  
+.card-rotation-2{
+  motion-rotation: -8grad;
 }
+.card-rotation-3{
+  motion-rotation: -3grad;
+}
+.card-rotation-4{
+  motion-rotation: -2grad;
+}.card-rotation-5{
+  motion-rotation: -1grad;
+}.card-rotation-6{
+  motion-rotation: 10grad;
+}.card-rotation-7{
+  motion-rotation: 0grad;
+}.card-rotation-8{
+  motion-rotation: 1grad;
+}.card-rotation-9{
+  motion-rotation: 3grad;
+}.card-rotation-10{
+  motion-rotation: 5grad;
+}.card-rotation-11{
+  motion-rotation: 7grad;
+}
+
 
 .card-container{
   display: flex;
