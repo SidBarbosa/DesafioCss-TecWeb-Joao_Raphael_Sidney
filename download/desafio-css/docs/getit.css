@@ -110,7 +110,6 @@ body {
   width: 32rem;
   margin-top: 1rem;
   box-shadow: 0 1px 15px rgba(0, 0, 0, 0.6);
-  align-content: flex-end;
   border-radius: 3px;
   margin-bottom: 3rem;
   
@@ -129,6 +128,7 @@ body {
   margin-left: 0.5rem;
   font-weight: 450;
   font-family: "Roboto", sans-serif;
+  resize: none;
 }
 .btn{
   height: 2.5rem;
@@ -172,5 +172,34 @@ body {
 }.card-colour-11{
   
 }
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  border-color: black;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-bottom: 3rem;
+  border:0.2rem solid black;
+  height: 10rem;
+  width: 11rem;
+  padding: 0.2rem;
+  border-radius: 3px;
+  
+}
+
+.card-title{
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+
 
 
