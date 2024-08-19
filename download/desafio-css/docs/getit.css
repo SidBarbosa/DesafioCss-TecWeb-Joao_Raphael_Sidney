@@ -142,47 +142,48 @@ body {
   margin-bottom: 0.6rem;
   font-weight:bold ;
 }
-.card-colour-1{
-  color: #ead3a7;
+.card-color-1{
+  background-color: #ead3a7;
 }
-.card-colour-2{
-  color: #9de0f5;
+.card-color-2{
+  background-color: #9de0f5;
 }
-.card-colour-3{
-  color: #ef89ba;
+.card-color-3{
+  background-color: #ef89ba;
 }
-.card-colour-4{
-  color:#abe9c1;
+.card-color-4{
+  background-color:#abe9c1;
  
 }
-.card-colour-5{
-  color:#fae890;
+.card-color-5{
+  background-color:#fae890;
   
 }.card-rotation-1{
-  motion-rotation: -5grad;
+  transform: rotate(-4deg);
 }
 .card-rotation-2{
-  motion-rotation: -8grad;
+  transform: rotate(3deg);
 }
 .card-rotation-3{
-  motion-rotation: -3grad;
+  transform: rotate(-5deg);
+  /* transform: -3grad; */
 }
 .card-rotation-4{
-  motion-rotation: -2grad;
+  transform: rotate(2deg);
 }.card-rotation-5{
-  motion-rotation: -1grad;
+  transform: rotate(-3deg);
 }.card-rotation-6{
-  motion-rotation: 10grad;
+  transform: rotate(4deg);
 }.card-rotation-7{
-  motion-rotation: 0grad;
+  transform: rotate(-2deg);
 }.card-rotation-8{
-  motion-rotation: 1grad;
+  transform: rotate(2deg);
 }.card-rotation-9{
-  motion-rotation: 3grad;
+  transform: rotate(-3deg);
 }.card-rotation-10{
-  motion-rotation: 5grad;
+  transform: rotate(2deg);
 }.card-rotation-11{
-  motion-rotation: 7grad;
+  transform: rotate(-4deg);
 }
 
 
